@@ -77,6 +77,10 @@ export default class App extends Lightning.Component {
     }))
   }
 
+  get id() {
+    return 'App'
+  }
+
   _getFocused() {
     return this.tag('Grid')
   }
